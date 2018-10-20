@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "385606495251",
+    "firebase_url": "https://justicebuddy-af2fb.firebaseio.com",
+    "project_id": "justicebuddy-af2fb",
+    "storage_bucket": "justicebuddy-af2fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385606495251:android:4f81ac16fa7c6cea",
+        "android_client_info": {
+          "package_name": "com.example.shivamdhammi.justicebuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385606495251-5fn8vi8fjscj0lh7ukfh73e0mr0mii1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivamdhammi.justicebuddy",
+            "certificate_hash": "88637c4733a71f621fe177bb7bf5fac9268e12bd"
+          }
+        },
+        {
+          "client_id": "385606495251-28h1i28mc72nqj1uk87hs1bkfb8etfqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3u25asJ7f-DEldHDQ8a08Bdv4SGPPsR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385606495251-28h1i28mc72nqj1uk87hs1bkfb8etfqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
