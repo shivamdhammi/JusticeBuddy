@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".law_login">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="177dp"
+        android:layout_height="172dp"
+        android:src="@drawable/icon" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="30dp"
+        android:text="Sign In"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have a account? Register"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="100dp"/>
+
+</LinearLayout>
