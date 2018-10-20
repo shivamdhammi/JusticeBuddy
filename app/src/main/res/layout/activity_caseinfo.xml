@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".caseinfo">
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#167FA2"
+        android:text="Add Your Case"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp" />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"/>
+    <com.farbod.labelledspinner.LabelledSpinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:entries="@array/adv_cat"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        app:labelText="Category of Case">
+
+    </com.farbod.labelledspinner.LabelledSpinner>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Description of Case"
+        android:inputType="textMultiLine"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload supporting Documents:"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        />
+        <android.support.design.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Upload"
+            android:drawableLeft="@android:drawable/ic_menu_upload"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+    <android.support.design.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector"
+        android:layout_marginStart="140dp"/>
+
+</LinearLayout>
