@@ -45,5 +45,8 @@ public class Main extends AppCompatActivity {
         tabLayout.setTabTextColors(Color.parseColor("#727272"), Color.parseColor("#ffffff"));
 
 
+
+
+
     }
 }
