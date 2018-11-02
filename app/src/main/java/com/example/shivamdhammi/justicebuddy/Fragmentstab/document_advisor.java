@@ -10,14 +10,6 @@ import android.view.ViewGroup;
 
 import com.example.shivamdhammi.justicebuddy.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link document_advisor.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link document_advisor#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class document_advisor extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
